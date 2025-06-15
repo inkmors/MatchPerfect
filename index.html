@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Perfeito</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="all">
+        <div class="align-title">
+            <h1>Match Perfeito</h1>
+            <p class="p1">Se você é um bom jogador, você vai encontrar um parceiro perfeito.</p>
+        </div>
+
+        <form id="form" action="#">
+            <label for="name">Insira seu nome:</label>
+            <input type="text" id="name" placeholder="Digite seu nome: ">
+            <div class="align-btn">
+                <div class="align-love">
+                    <label for="love">Insira o nome do seu amor:</label>
+                    <input type="text" id="love" placeholder="Digite o nome do seu amor: ">
+                </div>
+                <span class="error" id="error"></span>
+                <button type="submit" id="btnTest">Testar</button>
+            </div>
+
+            <div class="align-result">
+                <h2>Resultado</h2>
+                <div id="result">
+                    <p class="p2" id="resultText">----------------------</p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
